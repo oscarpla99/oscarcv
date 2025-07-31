@@ -1474,3 +1474,17 @@ section {
     padding: var(--space-20);
   }
 }
+/* Ocultar completamente la navegación en móviles */
+@media (max-width: 767px) {
+  .nav-menu,
+  .nav-toggle {
+    display: none !important;
+  }
+}
+/* Ocultar completamente la navegación en móviles */
+@media (max-width: 767px) {
+  .nav-menu,
+  .nav-toggle {
+    display: none !important;
+  }
+}
